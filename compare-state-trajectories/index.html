@@ -104,7 +104,7 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/running-to-stand-still/categories/#covid19">covid19</a>
+        <a class="category-tags-link" href="/running-to-stand-still/categories/#covid-19">covid-19</a>
         
       
       </p>
@@ -277,27 +277,6 @@ window.onload = wrap_img;
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">chart5</span> <span class="o">=</span> <span class="p">(</span>
- <span class="n">base_ref</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">opacity</span><span class="o">=.</span><span class="mi">5</span><span class="p">,</span> <span class="n">strokeDash</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
- <span class="o">+</span> <span class="n">base_ref_f</span><span class="o">.</span><span class="n">mark_text</span><span class="p">(</span><span class="n">dy</span><span class="o">=-</span><span class="mi">6</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;right&#39;</span><span class="p">,</span> <span class="n">fontSize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;33% Daily Growth&#39;</span><span class="p">)</span> 
- <span class="o">+</span> <span class="n">base2</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">point</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">tooltip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
- <span class="o">+</span> <span class="n">base2</span><span class="o">.</span><span class="n">transform_filter</span><span class="p">(</span><span class="n">date_filter</span><span class="p">)</span><span class="o">.</span><span class="n">mark_text</span><span class="p">(</span><span class="n">dy</span><span class="o">=-</span><span class="mi">8</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;right&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s1">&#39;Key:N&#39;</span><span class="p">)</span>
- <span class="o">+</span> <span class="n">base3</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">point</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;size&#39;</span><span class="p">:</span><span class="mi">30</span><span class="p">},</span> <span class="n">tooltip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
- <span class="o">+</span> <span class="n">base4</span><span class="o">.</span><span class="n">mark_text</span><span class="p">(</span><span class="n">dx</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">,</span> <span class="n">fontWeight</span><span class="o">=</span><span class="s1">&#39;lighter&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s1">&#39;Key:N&#39;</span><span class="p">)</span>
- <span class="o">+</span> <span class="n">base4</span><span class="o">.</span><span class="n">mark_text</span><span class="p">(</span><span class="n">dx</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">dy</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">,</span> <span class="n">fontWeight</span><span class="o">=</span><span class="s1">&#39;lighter&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s1">&#39;Cases:Q&#39;</span><span class="p">)</span>
-<span class="p">)</span><span class="o">.</span><span class="n">add_selection</span><span class="p">(</span><span class="n">state_selection</span><span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span>
-    <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;State&#39;s Trajectory compared to </span><span class="si">{</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">baseline_countries</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="p">)</span>
-<span class="n">chart5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
 
 <div class="output_wrapper">
 <div class="output">
@@ -307,10 +286,10 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-82b7b812456a4b8aa1922e3ebc364169"></div>
+<div id="altair-viz-fb66ffba67b142c3bf1feaa665fe4fb0"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-82b7b812456a4b8aa1922e3ebc364169");
+    const outputDiv = document.getElementById("altair-viz-fb66ffba67b142c3bf1feaa665fe4fb0");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
